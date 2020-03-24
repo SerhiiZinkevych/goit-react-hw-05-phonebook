@@ -1,0 +1,21 @@
+.deleteBtn {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(240, 50, 50);
+  color: #fff;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background-color: rgb(200, 50, 50);
+}
+
+.contactElement {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  align-items: center;
+  padding: 10px;
+}

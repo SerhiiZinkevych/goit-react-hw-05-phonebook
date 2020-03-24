@@ -1,0 +1,15 @@
+.form button {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(56, 70, 190);
+  color: #fff;
+  padding: 10px;
+  outline: none;
+}
+
+.form button:hover {
+  background-color: rgb(45, 57, 158);
+  cursor: pointer;
+}

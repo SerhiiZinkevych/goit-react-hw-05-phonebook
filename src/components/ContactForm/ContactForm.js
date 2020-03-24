@@ -76,9 +76,10 @@ export default class ContactForm extends Component {
               /\d/,
             ]}
             name="number"
+            required
             value={number}
             onChange={this.handleChange}
-            placeholder="(___) ___-____"
+            placeholder="Enter a phone number"
           />
         </label>
         <button type="submit">Add contact</button>

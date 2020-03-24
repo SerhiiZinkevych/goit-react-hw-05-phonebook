@@ -96,7 +96,7 @@ export default class App extends Component {
         <CSSTransition
           in
           appear
-          timeout={200}
+          timeout={1000}
           classNames={slideFromLeftTransition}
         >
           <h1 className={styles.title}>Phonebook</h1>

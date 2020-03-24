@@ -4,7 +4,12 @@ import PropTypes from 'prop-types';
 const Filter = ({ value, onChangeFilter }) => (
   <div className="container shadow">
     <p>Find contacts by name:</p>
-    <input name="filter" value={value} onChange={onChangeFilter} />
+    <input
+      name="filter"
+      value={value}
+      onChange={onChangeFilter}
+      placeholder="Type here to search..."
+    />
   </div>
 );
 

@@ -5,9 +5,10 @@ import styles from './ContactElement.module.css';
 
 const ContactElement = ({ contact, onDeleteContact }) => (
   <div className={`${styles.contactElement} container shadow`}>
-    <span>
-      {contact.name}: {contact.number}
-    </span>
+    <div className={styles.contactContainer}>
+      <span>{contact.name}</span>
+      <span>{contact.number}</span>
+    </div>
     <button
       onClick={() => onDeleteContact(contact.id)}
       className={styles.deleteBtn}

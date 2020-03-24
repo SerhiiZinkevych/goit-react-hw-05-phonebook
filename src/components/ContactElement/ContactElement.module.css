@@ -19,3 +19,9 @@
   align-items: center;
   padding: 10px;
 }
+
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
